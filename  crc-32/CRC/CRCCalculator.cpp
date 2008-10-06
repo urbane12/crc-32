@@ -18,6 +18,7 @@ CRCCalculator::~CRCCalculator()
 /******************************************************************************************
 *
 * This function implemented CRC32 Ethernet algorithm
+* TODO add comments
 *
 ******************************************************************************************/
 const uint32_t CRCCalculator::CalculateCRC32(const uint8_t* message, const unsigned int len)
