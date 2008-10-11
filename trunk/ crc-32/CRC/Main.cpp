@@ -10,8 +10,6 @@
 using namespace std;
 
 #include "CRCCalculator.h"
-using namespace nts;
-
 
 int main()
 {
