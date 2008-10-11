@@ -3,9 +3,6 @@
 
 #include <stdint.h>
 
-namespace nts
-{
-
 class CRCCalculator
 {
 public:
@@ -28,7 +25,6 @@ private:
 
 };
 
-}
 
 #endif /*CRCCALCULATOR_H_*/
 
