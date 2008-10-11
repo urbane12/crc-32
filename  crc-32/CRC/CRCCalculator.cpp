@@ -2,8 +2,6 @@
 
 #include <string.h> //For memcpy
 
-namespace nts
-{
 
 CRCCalculator::CRCCalculator()
 :m_crc(0)
@@ -64,6 +62,4 @@ uint8_t* CRCCalculator::AppendCRC32(uint8_t* where, const unsigned int len)
 
     delete temp;
     return where;
-}
-
 }
